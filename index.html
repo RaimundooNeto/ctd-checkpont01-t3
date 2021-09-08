@@ -9,18 +9,26 @@
 </head>
 <body>
 
-    <section id="section-one" class="slide">
+    <header class="header">
 
-        <header class="header">
+        <div class="navbar-container">
+
             <a href="/" class="logo-header"><img src="./assets/logo-pmjp-white-horizontal.png" alt="logo João Pessoa"></a>
             <nav>
                 <ul class="menu">
-                    <li><a href="/">A cidade</a></li>
-                    <li><a href="/">Vídeos</a></li>
-                    <li><a href="/">Curiosidades</a></li>
+                    <li><a href="#section-one">Início</a></li>
+                    <li><a href="#section-two">A cidade</a></li>
+                    <li><a href="#section-fourth">Vídeos</a></li>
+                    <li><a href="#section-fifth">Curiosidades</a></li>
+                    <li><a href="#social">Contatos</a></li>
                 </ul>
             </nav>
-        </header>
+            
+        </div>
+    
+    </header>
+
+    <section id="section-one" class="slide">
 
         <h1>Bem-vindo a João Pessoa</h1>
 
@@ -40,6 +48,7 @@
                 margens do Rio Sanhauá, um afluente do Rio Paraíba, hoje conhecido como Porto do Capim, 
                 no bairro do Varadouro.
             </p>
+
             <p>
                 Em 1588, a cidade passou a chamar-se “Filipéia de Nossa Senhora das Neves”,
                 em homenagem ao rei Filipe II, que, na época, acumulava os tronos da Espanha 
@@ -47,6 +56,7 @@
                 que a batizaram de Fredrikstad (Cidade de Frederico), em homenagem ao príncipe 
                 de Orange, Frederico de Orange.
             </p>
+
             <p>  
                 Depois do declínio da Nova Holanda e com a saída dos neerlandeses, a cidade 
                 adquiriu o nome de “Parahyba do Norte”, em 1654. Sua denominação atual, 
@@ -74,11 +84,9 @@
 
     </section>
 
-    <section id="section-fourth" class="slide centralize-items">
+    <section id="section-fourth" class="slide centralize-items" name="videos">
 
         <div class="text-container">
-
-            <h3>Vídeos</h3>
 
             <iframe 
             width="1280" 
@@ -94,7 +102,7 @@
 
     </section>
 
-    <section id="section-fifth" class="slide centralize-items">
+    <section id="section-fifth" class="slide centralize-items" name="curiosidades">
 
         <div class="text-container">
 
@@ -136,9 +144,39 @@
 
     </section>
 
-    <footer class="footer">
-        <p>aqui está o footer</p>
-    </footer>
+    <footer id="social" class="footer centralize-items">
 
+        <p>Para mais detalhes acesse as redes sociais:</p>
+
+        <div class="social-container">
+
+            <span>
+                <a 
+                href="https://www.instagram.com/prefjoaopessoa/" 
+                target="_blank">
+                <img src="./assets/instagran.svg" alt="icone instagram">
+                </a>
+            </span>
+
+            <span>
+                <a 
+                href="https://www.facebook.com/PrefeituraDeJoaoPessoa/" 
+                target="_blank">
+                <img src="./assets/facebook.svg" alt="">
+                </a>
+            </span>
+
+            <span>
+                <a 
+                href="https://www.youtube.com/user/pmjponline" 
+                target="_blank">
+                <img src="./assets/youtube.svg" alt="">
+                </a>
+            </span>
+
+        </div>
+
+    </footer>
+<script src="./app.js"></script>
 </body>
 </html>
