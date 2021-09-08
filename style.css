@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    perspective: 1px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    font-size: 64px;
+    margin-top: 15%;
+    text-shadow: 0 2px 2px #000;
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Allison', cursive;
+    text-shadow: 0 2px 2px #000;
+}
+
+h3 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    padding: 10px 126px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url("./assets/slide_bg.png");
+}
+
+.logo-header img {
+    width: 150px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+#section-one,
+#section-two,
+#section-three,
+#section-fourth,
+#section-fifth {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+}
+
+#section-one {
+  background-image: url("./assets/DJI_0004_00000-2.jpg");
+}
+
+#section-two {
+    background-image: url("./assets/picaozinho.jpg");
+}
+
+#section-three {
+    background-image: url("./assets/ipes.jpg");
+}
+
+#section-fourth {
+    background-image: url("./assets/igreja-1.jpg");
+}
+
+#section-fifth {
+    background-image: url("./assets/ferinha_de_tambau_foto_Rafael-Queiroz-1.jpg");
+}
+
+.slide {
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0,0,0,-7);
+    transform-style: inherit;
+}
+
+.centralize-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container {
+    width: 100%;
+    padding: 50px;
+    background-image: url("./assets/slide_bg.png");
+}
+
+#section-fifth li{
+    list-style: disc;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
